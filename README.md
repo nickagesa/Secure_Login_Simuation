@@ -44,6 +44,38 @@ To see the complete flow of the application, follow these steps:
 
 4. Test the Login System!
 
-  - Try logging in with valid user credentials.
+    - Try logging in with valid user credentials.
 
-  - Try logging in with a username that doesn't exist to see how the system responds.
+    - Try logging in with a username that doesn't exist to see how the system responds.
+  
+#  Future Improvements
+Here are some ideas to further enhance the project:
+
+- Password Reset Functionality
+  Add an option for users to reset their password via email verification or security questions.
+
+- Email Verification on Signup
+  Send a verification link to the user's email to confirm their account before activation.
+
+- Role-Based Access Control (RBAC)
+  Implement roles such as Admin, User, or Guest to restrict or allow access to certain features.
+
+- Activity Logging
+  Track login attempts, successful and failed, for better audit and security monitoring.
+
+- Two-Factor Authentication (2FA)
+  Enhance security by requiring a second form of verification during login.
+
+- Improved UI/UX
+  Upgrade the GUI to a modern, sleek design with better user interaction and feedback.
+
+- Deployment as a Web Application
+  Consider deploying this system as a web-based platform using Flask or Django.
+
+- Dockerization
+  Containerize the application for easier deployment and scaling.
+
+- Automated Testing
+  Add unit tests and integration tests to ensure code reliability.
+
+
